@@ -127,3 +127,40 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+:root {
+  --sidebar-bgcolor: #134e4a;
+  --sidebar-color: #64748b;
+  --primary-bg: #18181b;
+  --primary-color: #cad0db;
+  --secondary-bg: #3f3f46;
+  --secondary-color: #b6b6b6;
+}
