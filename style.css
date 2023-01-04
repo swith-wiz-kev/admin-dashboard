@@ -356,4 +356,67 @@ body > .header {
 .main {
   background-color: var(--secondary-bg);
   z-index: -2;
+  display: grid;
+  grid-template-columns: 8fr 3fr;
+  gap: 1rem;
+  padding-top: 2.5rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+}
+
+.main div.title {
+  margin-bottom: 0.5rem;
+}
+
+.projects > .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.container > .cards {
+  border-left: 0.6rem solid rgb(12, 12, 160);
+  border-radius: 0.5rem;
+  background-color: var(--primary-bg);
+  padding: 1rem 1rem;
+  z-index: 2;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.684);
+  height: 8rem;
+}
+
+.cards > .title {
+  height: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+}
+.cards > .text {
+  height: 4.7rem;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+
+.cards > button {
+  background-color: var(--primary-bg);
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+.cards > button.star {
+  margin-left: 10rem;
+}
+
+.cards > button > img {
+  filter: invert(93%) sepia(6%) saturate(354%) hue-rotate(181deg)
+    brightness(88%) contrast(95%);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.main > .others {
+  display: grid;
+  grid-template-rows: 53% 47%;
+  grid-template-columns: 1fr;
 }
